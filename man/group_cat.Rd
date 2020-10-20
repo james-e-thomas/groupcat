@@ -1,12 +1,15 @@
-\name{hello}
-\alias{hello}
-\title{Hello, World!}
+\name{group_cat}
+\alias{group_cat}
+\title{Create variables showing the means, sums et.c of categories}
 \usage{
-hello()
+group_cat(x, 
+          cat = c("category"),
+          newvars = c("new_var_name"),
+          vars = c("var_to_compute_from"),
+          comp = sum
 }
 \description{
-Prints 'Hello, world!'.
+Bla bla.
 }
 \examples{
-hello()
-}
+Bla bla}
